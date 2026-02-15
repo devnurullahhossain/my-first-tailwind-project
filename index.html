@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My First Tailwind Project</title>
+  </head>
+  <body class="min-h-screen bg-gray-500 text-gray-900 dark:bg-gray-950 dark:text-gray-100">
+    <header class="relative flex min-h-screen items-center justify-center overflow-hidden bg-linear-to-br from-indigo-500 via-purple-600 to-pink-500 text-white">
+      <div class="absolute inset-0 bg-black/40"></div>
+      <div class="relative z-10 max-w-4xl px-6 text-center">
+        <h1 class="mb-6 bg-linear-to-r from-white to-indigo-200 bg-clip-text text-5xl font-extrabold tracking-tight text-transparent md:text-7xl">Welcome to My World</h1>
+        <p class="mx-auto mb-10 max-w-2xl text-xl opacity-90 md:text-2xl">Web Development শিখছি, Tailwind দিয়ে সুন্দর UI বানাচ্ছি। এটা আমার প্রথম প্রজেক্ট!</p>
+        <div class="flex flex-col justify-center gap-6 sm:flex-row">
+          <a href="#" class="transform rounded-full bg-white px-8 py-4 font-bold text-indigo-700 shadow-lg transition hover:scale-105 hover:bg-indigo-100">Get Started</a>
+          <a href="#" class="rounded-full border-2 border-white px-8 py-4 font-bold text-white transition hover:bg-white/20">Learn more</a>
+        </div>
+      </div>
+    </header>
+    <section class="mx-auto max-w-7xl px-6 py-20">
+      <h2 class="mb-16 bg-linear-to-r from-indigo-600 to-purple-600 bg-clip-text text-center text-4xl font-bold text-transparent md:text-5xl">What I Can Build</h2>
+      <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <!----- card 1  ----->
+        <div class="transform overflow-hidden rounded-2xl bg-white shadow-2xl transition duration-300 hover:scale-105 dark:bg-gray-800">
+          <div class="h-48 bg-linear-to-br from-blue-400 to-indigo-600"></div>
+          <div class="p-8">
+            <h3 class="mb-4 text-2xl font-bold">Responsive Layouts</h3>
+            <p class="mb-6 text-gray-600 dark:text-gray-300">Mobile থেকে desktop — সব ডিভাইসে perfect দেখাবে।</p>
+            <a href="#" class="font-semibold text-indigo-600 hover:underline dark:text-indigo-400">Explore →</a>
+          </div>
+        </div>
+        <!----- card 2  ----->
+        <div class="transform overflow-hidden rounded-2xl bg-white shadow-xl transition duration-300 hover:scale-105 dark:bg-gray-800">
+          <div class="h-48 bg-linear-to-br from-purple-400 to-pink-600"></div>
+          <div class="p-8">
+            <h3 class="mb-4 text-2xl font-bold">Modern Animations</h3>
+            <p class="mb-6 text-gray-600 dark:text-gray-300">Hover effects, transitions, scale — সবকিছু smooth।</p>
+            <a href="#" class="font-semibold text-purple-600 hover:underline dark:text-purple-400"> See Examples → </a>
+          </div>
+        </div>
+        <!----- card 3  ----->
+        <div class="transform overflow-hidden rounded-2xl bg-white shadow-xl transition duration-300 hover:scale-105 dark:bg-gray-800">
+          <div class="h-48 bg-linear-to-br from-pink-400 to-rose-600"></div>
+          <div class="p-8">
+            <h3 class="mb-4 text-2xl font-bold">Dark Mode Ready</h3>
+            <p class="mb-6 text-gray-600 dark:text-gray-300">System dark mode-এ auto switch হয়ে যায়।</p>
+            <a href="#" class="font-semibold text-pink-600 hover:underline dark:text-pink-400"> Try Dark Mode → </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!------ JavaScript file for css  ------>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
