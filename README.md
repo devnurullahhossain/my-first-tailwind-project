@@ -5,7 +5,6 @@ Vite + Tailwind v4 দিয়ে বানানো একটা সিম্�
 https://my-first-tailwind-project-gray.vercel.app/
 
 ## Run Locally
-## Run Locally
 ```bash
 npm install
 npm run dev
